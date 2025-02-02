@@ -574,5 +574,7 @@ shape = SubResource("CircleShape2D_bvuon")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(2.5, 2.5)
-limit_left = -1000
-limit_top = -1000
+limit_left = -1598
+limit_top = -919
+limit_right = 1199
+limit_bottom = 1119
