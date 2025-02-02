@@ -33,7 +33,7 @@ func _on_growth_timer_timeout():
 		state = "apples"
 
 func drop_apple():
-	var apple_instance =apple.instantiate()
+	var apple_instance = apple.instantiate()
 	apple_instance.global_position = $Marker2D.global_position
 	get_parent().add_child(apple_instance)
 	

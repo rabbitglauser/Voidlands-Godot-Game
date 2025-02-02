@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://m38oe8og16tv"]
 
-[ext_resource type="Script" path="res://apple_tree.gd" id="1_sx71l"]
+[ext_resource type="Script" path="res://scripts/apple_tree.gd" id="1_sx71l"]
 [ext_resource type="Texture2D" uid="uid://c7nedva3jkt5s" path="res://art/environment/survivalgame-appletree.png" id="2_phiwx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2glxp"]
