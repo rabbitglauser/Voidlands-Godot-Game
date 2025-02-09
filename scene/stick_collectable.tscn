@@ -1,0 +1,36 @@
+[gd_scene load_steps=6 format=3 uid="uid://bt8guumsw3647"]
+
+[ext_resource type="Script" path="res://stick_collectable.gd" id="1_xju6d"]
+[ext_resource type="Texture2D" uid="uid://cmqrb7a48tcpr" path="res://art/environment/stick-icon.png" id="2_8x8fc"]
+[ext_resource type="Resource" uid="uid://hsr4iy8rp8xy" path="res://inventory/items/stick.tres" id="2_fjbyq"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3ragu"]
+
+[sub_resource type="GDScript" id="GDScript_6ymeg"]
+script/source = "extends CollisionShape2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[node name="stick_collectable" type="StaticBody2D"]
+script = ExtResource("1_xju6d")
+item = ExtResource("2_fjbyq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_8x8fc")
+
+[node name="interactable_area" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="interactable_area"]
+shape = SubResource("CircleShape2D_3ragu")
+script = SubResource("GDScript_6ymeg")
+
+[connection signal="body_entered" from="interactable_area" to="." method="_on_interactable_area_body_entered"]
