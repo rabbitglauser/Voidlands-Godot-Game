@@ -8,6 +8,7 @@ radius = 7.0
 height = 40.0
 
 [node name="arrow" type="Area2D"]
+scale = Vector2(0.3, 0.3)
 script = ExtResource("1_m7pv2")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
