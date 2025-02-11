@@ -325,7 +325,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_bvuon"]
 radius = 4.0
 
-[node name="player" type="CharacterBody2D"]
+[node name="player" type="CharacterBody2D" groups=["Player"]]
 script = ExtResource("1_8d8hf")
 inv = ExtResource("2_5kbws")
 

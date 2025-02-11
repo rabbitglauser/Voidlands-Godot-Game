@@ -1,0 +1,75 @@
+[gd_scene load_steps=11 format=3 uid="uid://beldtww0flen7"]
+
+[ext_resource type="Script" path="res://scripts/portal.gd" id="1_dnj0u"]
+[ext_resource type="Texture2D" uid="uid://d363q7gqr3lcq" path="res://art/environment/portals.png" id="1_luetn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7h6ll"]
+atlas = ExtResource("1_luetn")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_85x37"]
+atlas = ExtResource("1_luetn")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xtcmb"]
+atlas = ExtResource("1_luetn")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0nr28"]
+atlas = ExtResource("1_luetn")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_exm1n"]
+atlas = ExtResource("1_luetn")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2n7qq"]
+atlas = ExtResource("1_luetn")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u17j0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7h6ll")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_85x37")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xtcmb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0nr28")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_exm1n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2n7qq")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bsr17"]
+size = Vector2(7, 30)
+
+[node name="Portal" type="Area2D"]
+script = ExtResource("1_dnj0u")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_u17j0")
+autoplay = "default"
+frame = 3
+frame_progress = 0.245413
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3.5, 0)
+shape = SubResource("RectangleShape2D_bsr17")
+
+[node name="DestinationPoint" type="Marker2D" parent="."]
+position = Vector2(-93, 0)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -23,6 +23,10 @@ Music="*res://scene/music.tscn"
 
 project/assembly_name="HuntersGame"
 
+[global_group]
+
+Player=""
+
 [input]
 
 right={

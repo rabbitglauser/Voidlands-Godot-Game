@@ -86,6 +86,7 @@ func play_anim(dir):
 			$AnimatedSprite2D.play("sw-attack")
 		if mouse_loc_from_player.x <= -25 and mouse_loc_from_player.y <= -25:
 			$AnimatedSprite2D.play("nw-attack")
+
 func player():
 	pass
 
