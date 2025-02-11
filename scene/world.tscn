@@ -299,13 +299,13 @@ position = Vector2(92, 51)
 position = Vector2(196, -14)
 
 [node name="DestinationPoint" parent="Portal" index="2"]
-position = Vector2(556, -455)
+position = Vector2(549, -455)
 
 [node name="Portal2" parent="." instance=ExtResource("8_k22oq")]
 position = Vector2(780, -470)
 
 [node name="DestinationPoint" parent="Portal2" index="2"]
-position = Vector2(-605, 457)
+position = Vector2(-635, 456)
 
 [editable path="Portal"]
 [editable path="Portal2"]

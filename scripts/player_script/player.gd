@@ -8,7 +8,7 @@ var player_state
 
 var bow_equiped = false
 var bow_cooldown = true
-var arrow = preload("res://scene/arrow.tscn")
+var arrow = preload("res://scene/player/arrow.tscn")
 var mouse_loc_from_player = null
 
 func _physics_process(delta):
