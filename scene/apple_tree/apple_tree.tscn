@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://m38oe8og16tv"]
 
-[ext_resource type="Script" path="res://scripts/apple_tree.gd" id="1_sx71l"]
-[ext_resource type="Texture2D" uid="uid://c7nedva3jkt5s" path="res://art/environment/survivalgame-appletree.png" id="2_phiwx"]
+[ext_resource type="Script" path="res://scripts/apple_tree_script/apple_tree.gd" id="1_sx71l"]
+[ext_resource type="Texture2D" uid="uid://c7nedva3jkt5s" path="res://art/environment/Tiled/nature/survivalgame-appletree.png" id="2_phiwx"]
 [ext_resource type="Resource" uid="uid://gndm5pbp2vv7" path="res://inventory/items/apple.tres" id="2_wc6vr"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2glxp"]

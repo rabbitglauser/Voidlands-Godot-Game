@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d363q7gqr3lcq"
-path="res://.godot/imported/portals.png-339dad6078dc05a75ee62b543513944c.ctex"
+uid="uid://ctxdl0ry1vlyl"
+path="res://.godot/imported/slime-icon.png-de8c1f75dad88e7b1716c7b6f927846b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/environment/portals.png"
-dest_files=["res://.godot/imported/portals.png-339dad6078dc05a75ee62b543513944c.ctex"]
+source_file="res://art/character/slime-icon.png"
+dest_files=["res://.godot/imported/slime-icon.png-de8c1f75dad88e7b1716c7b6f927846b.ctex"]
 
 [params]
 

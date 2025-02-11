@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b5hdfrjc7kpqo"
-path="res://.godot/imported/Human-Worker-Red.png-d361aac73d8bbf024d122b9972e8ec91.ctex"
+uid="uid://dixulp8dfwei3"
+path="res://.godot/imported/punyworld-overworld-tileset.png-80cc1a7d621762740526ff400bad1407.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/Human-Worker-Red.png"
-dest_files=["res://.godot/imported/Human-Worker-Red.png-d361aac73d8bbf024d122b9972e8ec91.ctex"]
+source_file="res://art/environment/Tiled/nature/punyworld-overworld-tileset.png"
+dest_files=["res://.godot/imported/punyworld-overworld-tileset.png-80cc1a7d621762740526ff400bad1407.ctex"]
 
 [params]
 

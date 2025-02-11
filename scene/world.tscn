@@ -1,11 +1,11 @@
 [gd_scene load_steps=14 format=3 uid="uid://c2nyak2vs4bf7"]
 
-[ext_resource type="PackedScene" uid="uid://m38oe8og16tv" path="res://scene/apple_tree.tscn" id="1_nix82"]
-[ext_resource type="PackedScene" uid="uid://blb350f6kk1ic" path="res://scene/player.tscn" id="1_sdid5"]
-[ext_resource type="Texture2D" uid="uid://dr2asvwygq3dl" path="res://art/environment/survivalgame-terrian-defult.png" id="2_tm4y4"]
-[ext_resource type="Texture2D" uid="uid://ghdii20kkcsw" path="res://art/environment/survivalgame-terrian-cliffs.png" id="3_43quk"]
-[ext_resource type="Texture2D" uid="uid://cvf0ptv0fwbu2" path="res://art/environment/survivalgame-trees.png" id="4_vsgv2"]
-[ext_resource type="Texture2D" uid="uid://bmkyw7t4gw3np" path="res://art/environment/survivalgame-terrian-water.png" id="5_mgi2q"]
+[ext_resource type="PackedScene" uid="uid://m38oe8og16tv" path="res://scene/apple_tree/apple_tree.tscn" id="1_nix82"]
+[ext_resource type="PackedScene" uid="uid://blb350f6kk1ic" path="res://scene/player/player.tscn" id="1_sdid5"]
+[ext_resource type="Texture2D" uid="uid://dr2asvwygq3dl" path="res://art/environment/Tiled/nature/survivalgame-terrian-defult.png" id="2_tm4y4"]
+[ext_resource type="Texture2D" uid="uid://ghdii20kkcsw" path="res://art/environment/Tiled/nature/survivalgame-terrian-cliffs.png" id="3_43quk"]
+[ext_resource type="Texture2D" uid="uid://cvf0ptv0fwbu2" path="res://art/environment/Tiled/nature/survivalgame-trees.png" id="4_vsgv2"]
+[ext_resource type="Texture2D" uid="uid://bmkyw7t4gw3np" path="res://art/environment/Tiled/nature/survivalgame-terrian-water.png" id="5_mgi2q"]
 [ext_resource type="PackedScene" uid="uid://bt8guumsw3647" path="res://scene/stick_collectable.tscn" id="7_b22ro"]
 [ext_resource type="PackedScene" uid="uid://beldtww0flen7" path="res://scene/Portal.tscn" id="8_k22oq"]
 

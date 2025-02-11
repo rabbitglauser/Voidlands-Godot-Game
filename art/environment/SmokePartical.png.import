@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7nedva3jkt5s"
-path="res://.godot/imported/survivalgame-appletree.png-6ddf6c12bd0682ee84a9aa5ac05efd3c.ctex"
+uid="uid://byuas6mr7nqm7"
+path="res://.godot/imported/SmokePartical.png-126cf4ea2d23097627229c264ff1da16.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/environment/survivalgame-appletree.png"
-dest_files=["res://.godot/imported/survivalgame-appletree.png-6ddf6c12bd0682ee84a9aa5ac05efd3c.ctex"]
+source_file="res://art/environment/SmokePartical.png"
+dest_files=["res://.godot/imported/SmokePartical.png-126cf4ea2d23097627229c264ff1da16.ctex"]
 
 [params]
 

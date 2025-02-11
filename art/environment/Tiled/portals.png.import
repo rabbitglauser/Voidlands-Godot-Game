@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dr2asvwygq3dl"
-path="res://.godot/imported/survivalgame-terrian-defult.png-3d61b72b3da49ca29c9882222b9f9471.ctex"
+uid="uid://d363q7gqr3lcq"
+path="res://.godot/imported/portals.png-3d60188cbc9b5f119f93d0aeb96cca5a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/environment/survivalgame-terrian-defult.png"
-dest_files=["res://.godot/imported/survivalgame-terrian-defult.png-3d61b72b3da49ca29c9882222b9f9471.ctex"]
+source_file="res://art/environment/Tiled/portals.png"
+dest_files=["res://.godot/imported/portals.png-3d60188cbc9b5f119f93d0aeb96cca5a.ctex"]
 
 [params]
 

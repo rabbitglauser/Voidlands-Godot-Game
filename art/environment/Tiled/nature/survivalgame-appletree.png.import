@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ci5msxvpygif1"
-path="res://.godot/imported/survivalgame-randomitems.png-b0c416c6810a49a0b971bb556867fcb2.ctex"
+uid="uid://c7nedva3jkt5s"
+path="res://.godot/imported/survivalgame-appletree.png-ac2fefbafdc112a4f7a74dbb44c3c4c1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/environment/survivalgame-randomitems.png"
-dest_files=["res://.godot/imported/survivalgame-randomitems.png-b0c416c6810a49a0b971bb556867fcb2.ctex"]
+source_file="res://art/environment/Tiled/nature/survivalgame-appletree.png"
+dest_files=["res://.godot/imported/survivalgame-appletree.png-ac2fefbafdc112a4f7a74dbb44c3c4c1.ctex"]
 
 [params]
 

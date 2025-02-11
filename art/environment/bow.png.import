@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctxdl0ry1vlyl"
-path="res://.godot/imported/slime-icon.png-1e86c0896be0ca336143ae608a56143f.ctex"
+uid="uid://cxjn10jtv6ntk"
+path="res://.godot/imported/bow.png-4c2591886587f406240d39cf6847b07b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/slime-icon.png"
-dest_files=["res://.godot/imported/slime-icon.png-1e86c0896be0ca336143ae608a56143f.ctex"]
+source_file="res://art/environment/bow.png"
+dest_files=["res://.godot/imported/bow.png-4c2591886587f406240d39cf6847b07b.ctex"]
 
 [params]
 

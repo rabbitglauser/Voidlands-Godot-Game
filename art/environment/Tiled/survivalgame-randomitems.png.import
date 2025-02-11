@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dw5mwlqn5doyv"
-path="res://.godot/imported/SlimeIcon.png-77a184e7b305b847ca59c602f7cb0cec.ctex"
+uid="uid://ci5msxvpygif1"
+path="res://.godot/imported/survivalgame-randomitems.png-1ca3353004c996641fd8ef61c0199678.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/SlimeIcon.png"
-dest_files=["res://.godot/imported/SlimeIcon.png-77a184e7b305b847ca59c602f7cb0cec.ctex"]
+source_file="res://art/environment/Tiled/survivalgame-randomitems.png"
+dest_files=["res://.godot/imported/survivalgame-randomitems.png-1ca3353004c996641fd8ef61c0199678.ctex"]
 
 [params]
 
