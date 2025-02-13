@@ -20,10 +20,7 @@
   - "E" = pickup sticks & apples on the ground
   - "left-click" = shoot crossbow
     
-![image](https://github.com/user-attachments/assets/0071cd8a-ae87-464c-b457-0ee4a652fd62)
-
-
-
+![image](https://github.com/user-attachments/assets/a638cfeb-e723-40a7-a101-70e01de6b646)
 
 ### Music
 https://freepd.com/world.php
