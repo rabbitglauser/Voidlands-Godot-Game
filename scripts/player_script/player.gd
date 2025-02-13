@@ -51,7 +51,7 @@ func play_anim(dir):
 		if player_state == "idle":
 			$AnimatedSprite2D.play("idle")
 		if player_state == "walking":
-			if dir.y == 1:
+			if dir.y == -1:
 				$AnimatedSprite2D.play("n-walk")
 			if dir.x == 1:
 				$AnimatedSprite2D.play("e-walk")
