@@ -4,8 +4,8 @@ var state = "day"
 
 var change_state = false
 
-var length_of_day = 15
-var length_of_night = 8
+var length_of_day = 300
+var length_of_night = 50
 
 
 func _ready():
@@ -24,7 +24,7 @@ func _on_timer_timeout():
 
 func _process(delta):
 	if change_state == true:
-		change_state == false
+		change_state = false
 		if state == "day":
 			change_to_day()
 		elif state == "night":
@@ -37,6 +37,6 @@ func change_to_day():
 	$Timer.start()
 
 func change_to_night():
-	$AnimationPlayer.play("daytonight")
+	$AnimationPlayer.play("Rnight")
 	$Timer.wait_time = length_of_night
 	$Timer.start()
