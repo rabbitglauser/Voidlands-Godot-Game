@@ -1,18 +1,23 @@
 ### learning Godot
 - ToDO
+    - important{style= }
+       -  add multiplayer
+       - building
+       - add towns
+       - add NPCs
+       - add more stuff to pick up
+       - add quests
+       - add the ability to chop trees
+    - it would be cool to add 
+      - add enemies
+      - add animals
+      - fix shooting arrow key binds form "E" -> "2"
+      - add boats
+      - add trading
+- Done
   - improve movement ✅
-  - add enemies
-  - add icons at the bottom
-  - add animals
-  - add more stuff to pick up
-  - fix shooting arrow key binds form "E" -> "2"
   - portal travel ✅
   - improve collision ✅
-  - building
-  - add town
-  - add NPCs
-  - add boats
-  - add trading
   ### Game key binds
   - "A", "W", "S", and "D" = movement
   - "I" = Inventory
@@ -20,10 +25,7 @@
   - "E" = pickup sticks & apples on the ground
   - "left-click" = shoot crossbow
     
-![image](https://github.com/user-attachments/assets/0071cd8a-ae87-464c-b457-0ee4a652fd62)
-
-
-
+![image](https://github.com/user-attachments/assets/a638cfeb-e723-40a7-a101-70e01de6b646)
 
 ### Music
 https://freepd.com/world.php
