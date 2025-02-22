@@ -7,17 +7,25 @@ extends CanvasLayer
 
 var player_node: Node2D
 
-# add my correct tile map here
 func _ready() -> void:
-	for TileMap in owner.get_node("TileMap").get_children():
-			var minimap_tilemap = TileMap.duplicate()
+	if owner == null:
+		print_error("Owner is null. Cannot access 'TileMap'.")
+		return
+	
+	var tilemap_node = owner.get_node("TileMap")
+	if tilemap_node == null:
+		print_error("TileMap node is not found.")
+		return
+	
+	for tilemap in tilemap_node.get_children():
+		if tilemap is TileMap:
+			var minimap_tilemap = tilemap.duplicate()
 			setup_minimap(minimap_tilemap)
 			
-			if TileMap.name == "Ground":
-				var used_rect: Rect2i = TileMap.get_used_rect()
+			if tilemap.name == "Ground":
+				var used_rect: Rect2i = tilemap.get_used_rect()
 				set_minimap_limits(used_rect)
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	if player_node:
 		Minimap_camera.global_position = lerp(Minimap_camera.global_position, player_node.global_position, 0.2)
