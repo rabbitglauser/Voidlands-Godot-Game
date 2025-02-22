@@ -1,5 +1,6 @@
-[gd_scene load_steps=19 format=3 uid="uid://c2nyak2vs4bf7"]
+[gd_scene load_steps=21 format=3 uid="uid://c2nyak2vs4bf7"]
 
+[ext_resource type="Script" path="res://scripts/world.gd" id="1_6cd7h"]
 [ext_resource type="PackedScene" uid="uid://m38oe8og16tv" path="res://scene/apple_tree/apple_tree.tscn" id="1_nix82"]
 [ext_resource type="PackedScene" uid="uid://blb350f6kk1ic" path="res://scene/player/player.tscn" id="1_sdid5"]
 [ext_resource type="Texture2D" uid="uid://dr2asvwygq3dl" path="res://art/environment/Tiled/nature/survivalgame-terrian-defult.png" id="2_tm4y4"]
@@ -9,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://dixulp8dfwei3" path="res://art/environment/Tiled/nature/punyworld-overworld-tileset.png" id="6_jm4ig"]
 [ext_resource type="PackedScene" uid="uid://bt8guumsw3647" path="res://scene/stick_collectable.tscn" id="7_b22ro"]
 [ext_resource type="PackedScene" uid="uid://beldtww0flen7" path="res://scene/Portal.tscn" id="8_k22oq"]
+[ext_resource type="PackedScene" uid="uid://c2dl4m2hfooxd" path="res://scene/minimap.tscn" id="11_dpakq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v44e0"]
 texture = ExtResource("2_tm4y4")
@@ -1828,6 +1830,7 @@ texture = ExtResource("6_jm4ig")
 sources/0 = SubResource("TileSetAtlasSource_fdjce")
 
 [node name="world" type="Node2D"]
+script = ExtResource("1_6cd7h")
 
 [node name="player" parent="." instance=ExtResource("1_sdid5")]
 position = Vector2(21, 0)
@@ -1882,6 +1885,8 @@ scale = Vector2(2, 2)
 tile_set = SubResource("TileSet_jfsjp")
 format = 2
 layer_0/tile_data = PackedInt32Array(65530, 1572864, 29, 65529, 1572864, 29, 65528, 1572864, 29, 65527, 1441792, 27, -9, 1441792, 26, 131063, 1441792, 28, -5, 327680, 26, -1310733, 589824, 30, 1310719, 589824, 30, -851963, 1179648, 27, -786427, 1179648, 27, -720891, 1179648, 27, -655355, 1179648, 27, -589819, 1179648, 27, -524283, 1179648, 28, -524282, 1245184, 28, -983029, 1245184, 26, -983028, 1245184, 26, -983027, 1245184, 26, -983026, 1245184, 26, -983025, 1245184, 26, -983024, 1245184, 26, -983023, 1245184, 26, -983022, 1245184, 26, -983021, 1245184, 26, -983020, 1310720, 26, -917484, 1310720, 27, -851948, 1310720, 27, -786412, 1310720, 27, -720876, 1310720, 27, -655340, 1310720, 27, -589804, 1310720, 27, -524268, 1310720, 27, -458732, 1310720, 27, -393196, 1310720, 27, -327660, 1310720, 27, -262124, 1310720, 27, 196618, 1179648, 28, 196619, 1245184, 28, 196620, 1245184, 28, 196621, 1245184, 28, 196622, 1245184, 28, 196623, 1245184, 28, 196624, 1245184, 28, 196625, 1245184, 28, 196626, 1245184, 28, 196627, 1245184, 28, 196628, 1310720, 28, 131092, 1310720, 27, 65556, 1310720, 27, 20, 1310720, 27, -65516, 1310720, 27, -131052, 1310720, 27, -196588, 1310720, 27, -524281, 1310720, 36, -524280, 1376256, 36, -524278, 1310720, 26, -524279, 1245184, 28, -458742, 1310720, 27, -393206, 1310720, 27, -327670, 1310720, 27, -262134, 1310720, 27, -196598, 1310720, 27, -131062, 1310720, 27, -65526, 1310720, 27, 10, 1310720, 27, 65546, 1310720, 27, 131082, 1310720, 27, -1376275, 1048576, 33, -786421, 1048576, 34, -655354, 1114112, 34, -983035, 1179648, 26, -917499, 1179648, 27, -983034, 1245184, 26, -983033, 1245184, 26, -983032, 1441792, 33, -917496, 1441792, 34, -983031, 1507328, 33, -917495, 1507328, 34, -983030, 1245184, 26, -458737, 917504, 37, -524271, 983040, 34, -327668, 917504, 35, -262127, 917504, 34, -131059, 917504, 34, -65519, 917504, 34, -655347, 917504, 34, -720880, 983040, 35, -851954, 983040, 35, -786425, 983040, 35, -458739, 917504, 36, 65549, 1179648, 36, -524274, 589824, 31, 1966055, 720896, 32, 1966057, 851968, 32, 1966056, 786432, 32)
+
+[node name="Minimap" parent="." instance=ExtResource("11_dpakq")]
 
 [editable path="Portal"]
 [editable path="Portal2"]
