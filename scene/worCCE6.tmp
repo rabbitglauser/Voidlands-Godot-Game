@@ -1,5 +1,6 @@
-[gd_scene load_steps=21 format=3 uid="uid://c2nyak2vs4bf7"]
+[gd_scene load_steps=22 format=3 uid="uid://c2nyak2vs4bf7"]
 
+[ext_resource type="Script" path="res://scripts/world.gd" id="1_6cd7h"]
 [ext_resource type="PackedScene" uid="uid://m38oe8og16tv" path="res://scene/apple_tree/apple_tree.tscn" id="1_nix82"]
 [ext_resource type="PackedScene" uid="uid://blb350f6kk1ic" path="res://scene/player/player.tscn" id="1_sdid5"]
 [ext_resource type="Texture2D" uid="uid://dr2asvwygq3dl" path="res://art/environment/Tiled/nature/survivalgame-terrian-defult.png" id="2_tm4y4"]
@@ -7,10 +8,10 @@
 [ext_resource type="Texture2D" uid="uid://cvf0ptv0fwbu2" path="res://art/environment/Tiled/nature/survivalgame-trees.png" id="4_vsgv2"]
 [ext_resource type="Texture2D" uid="uid://bmkyw7t4gw3np" path="res://art/environment/Tiled/nature/survivalgame-terrian-water.png" id="5_mgi2q"]
 [ext_resource type="Texture2D" uid="uid://dixulp8dfwei3" path="res://art/environment/Tiled/nature/punyworld-overworld-tileset.png" id="6_jm4ig"]
-[ext_resource type="PackedScene" uid="uid://bt8guumsw3647" path="res://scene/stick_collectable.tscn" id="7_b22ro"]
-[ext_resource type="PackedScene" uid="uid://beldtww0flen7" path="res://scene/Portal.tscn" id="8_k22oq"]
-[ext_resource type="PackedScene" uid="uid://c2dl4m2hfooxd" path="res://scene/minimap.tscn" id="11_dpakq"]
-[ext_resource type="PackedScene" uid="uid://cjrtefar7f28n" path="res://scene/pause_menu.tscn" id="12_i38en"]
+[ext_resource type="PackedScene" uid="uid://bt8guumsw3647" path="res://scene/stick/stick_collectable.tscn" id="7_b22ro"]
+[ext_resource type="PackedScene" uid="uid://beldtww0flen7" path="res://scene/portal/Portal.tscn" id="8_k22oq"]
+[ext_resource type="PackedScene" uid="uid://c2dl4m2hfooxd" path="res://scene/minimap/minimap.tscn" id="11_dpakq"]
+[ext_resource type="PackedScene" uid="uid://cjrtefar7f28n" path="res://scene/menu/pause_menu.tscn" id="12_i38en"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v44e0"]
 texture = ExtResource("2_tm4y4")
@@ -1934,6 +1935,12 @@ sources/0 = SubResource("TileSetAtlasSource_fdjce")
 
 [node name="world" type="Node2D"]
 y_sort_enabled = true
+script = ExtResource("1_6cd7h")
+
+[node name="player" parent="." instance=ExtResource("1_sdid5")]
+y_sort_enabled = true
+position = Vector2(21, 0)
+up_direction = Vector2(0, 1)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(21, 0)
@@ -2018,11 +2025,6 @@ polygon = PackedVector2Array(-168, 30, -167, 416, -184, 431, -287, 431, -287, 77
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="PauseMenu" parent="CanvasLayer" instance=ExtResource("12_i38en")]
-
-[node name="player" parent="." instance=ExtResource("1_sdid5")]
-y_sort_enabled = true
-position = Vector2(21, 0)
-up_direction = Vector2(0, 1)
 
 [editable path="Portal"]
 [editable path="Portal2"]

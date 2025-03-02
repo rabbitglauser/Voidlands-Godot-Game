@@ -1,17 +1,9 @@
 extends Node2D
 
-@onready var player = $player
-@onready var minimap = $Minimap
+@onready var player = $"../player"
+@onready var minimap = $"../Minimap"
 
+# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	if minimap:
-		minimap._initialize_minimap() 
-		if player:
-			minimap.player_node = player
-		else:
-			print("Player not found in World!")
-	else:
-		print("Minimap not found in World!")
-
-func _process(delta: float) -> void:
-	pass
+	if minimap and player:
+		minimap.player_node = player
