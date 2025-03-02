@@ -25,7 +25,8 @@
   - "E" = pickup sticks & apples on the ground
   - "left-click" = shoot crossbow
     
-![image](https://github.com/user-attachments/assets/c10a7ac5-5ffb-4294-80d9-2f1259adb2c2)
+![image](https://github.com/user-attachments/assets/e165f840-97f6-46b7-9c27-553422e6f83a)
+
 
 
 ### Music
