@@ -1,6 +1,6 @@
 ### learning Godot
 - ToDO
-    - important{style= }
+    - important
        - add multiplayer
        - add NPCs
        - add more stuff to pick up
