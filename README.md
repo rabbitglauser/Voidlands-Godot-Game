@@ -24,7 +24,9 @@
   - "E" = switch from crossbow
   - "E" = pickup sticks & apples on the ground
   - "left-click" = shoot crossbow
-    
+ 
+### --- play game ---> https://rabbitglauser.itch.io/void-lands
+
 ![image](https://github.com/user-attachments/assets/e165f840-97f6-46b7-9c27-553422e6f83a)
 
 
